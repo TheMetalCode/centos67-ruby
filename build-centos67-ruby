@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+docker build --no-cache -t themetalcode/centos67-ruby:latest .
